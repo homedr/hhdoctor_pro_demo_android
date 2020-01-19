@@ -16,11 +16,11 @@ def sdk_version = "2.4.4.01191014"
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.hhmedic.app.patient.demo"
+        applicationId "com.hhmedic.app.patient.pro.demo"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode increasedVersionCode()
-        versionName "1.0.4.${buildTime()}"
+        versionName "1.0.0.${buildTime()}"
 
         ndk {
             //设置支持的SO库架构
