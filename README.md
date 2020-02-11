@@ -1,4 +1,4 @@
-## DoctorPro SDK接入文档 2.4.4.01191812
+## DoctorPro SDK接入文档 2.4.4.02111033
 
 <p align="right">
 北京和缓医疗科技有限公司<br/>
@@ -44,7 +44,7 @@ repositories {
 ##### 2.2 在build.gradle文件中dependencies中配置库的引用
 
 ```
-implementation 'com.hhmedic.android.sdk:pro:2.4.4.01191812'
+implementation 'com.hhmedic.android.sdk:pro:2.4.4.02111033'
 ```
 
 <span style="color:red;">注：添加以上配置后需要进行gradle sync才能同步生效，配置maven库地址的时候不能省略用户名和密码，否则同步不下来。</span>
@@ -226,3 +226,4 @@ https://helpcdn.aliyun.com/knowledge_detail/66886.html?spm=a2c4g.11186631.2.1.8c
 |---|---|
 |2.4.4.01191014|首发版本|
 |2.4.4.01191812|fix 未处理会员未开通的情况|
+|2.4.4.02111033|fix file provider配置引起的视频中拍照崩溃的问题|
